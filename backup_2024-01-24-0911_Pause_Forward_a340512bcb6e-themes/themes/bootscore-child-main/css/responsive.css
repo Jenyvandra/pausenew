@@ -1,0 +1,1469 @@
+/* responsive css start */
+@media only screen and (max-width: 1400px) {
+    .contact-back-banner {
+        background-position: 70% 100%;
+    }
+    .blog-card img.card-img-lg-start {
+        height: 200px !important;
+    }
+    .ratio, .card iframe {
+        height: 200px;
+    }
+    .banner-new.banner-dr h1.banner-title {
+        font-size: 60px;
+        line-height: 75px;
+    }
+    div#booking-consult .modal-dialog, #booking-physical-consult .modal-dialog {
+        max-width: 85%;
+    }
+    nav#nav-main {
+        padding: 10px 0px;
+      }
+      .topnav-inner {
+        padding: 0 60px;
+    }
+    .btn-wrapper {
+        gap: 26px;
+    }
+    .btn-wrapper button.btn.pfbtn-solid {
+        gap: 10px;
+    }
+    button.btn.pfbtn-solid, button.btn.pfbtn-outline {
+        font-size: 16px !important;
+    }
+    .dr-spcl-list.drlist-inner .card-spc {
+        padding: 15px 20px;
+        gap: 0px;
+    }
+    .menopause-awareness-quiz #user-info .modal-dialog, #user-info .modal-dialog {
+        max-width: 80%;
+    }
+    .banner-quiz h1.banner-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner-quiz p.banner-para {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .banner-survey h1.banner-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner-survey p.banner-para {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .banner-new.banner-survey .btn-wrapper {
+        padding-top: 0px;
+    }
+    .banner-survey p.fas-banner-p {
+        padding: 20px 0 30px;
+    }
+    .free-assessment-survey #user-info .modal-dialog {
+        max-width: 80%;
+    }
+}
+
+/* 23-11-23 start */
+
+@media only screen and (max-width: 1200px){
+    .banner-wrapper.our-plan-hero{
+      display: block !important;
+      padding: 45px 0;
+    }
+  
+    .banner-wrapper.our-plan-hero .col-12:first-child {
+      order: 0 !important;
+  }
+  
+  .banner-wrapper.our-plan-hero .row{
+  row-gap: 30px;
+  }
+/*   
+  .contact-back-banner{
+    background-image: none;
+    background-color: transparent;
+  } */
+
+  .contact-back-banner .banner-hide {
+    display: block !important;
+  }
+ 
+  .banner-new .new-banner-img{
+    display: block !important;
+  }
+
+  .contact-page-details .row{
+    flex-direction: column-reverse;
+    row-gap: 30px;
+  }
+
+  .contact-page-details {
+    padding: 0px 0;
+}
+  
+
+.navbar-nav{
+    align-items: start;
+
+  }
+
+  #nav-main.nav-wrapper ul.navbar-nav li a {
+    font-size: 22px !important;
+    margin: 5px 0;
+}
+
+#nav-main.nav-wrapper ul.navbar-nav li {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.offcanvas-body {
+padding: 20px 20px 50px !important;  
+} 
+
+  }
+
+  /* 23-11-23 end */
+
+@media only screen and (max-width: 1024px) {
+    .banner-new.banner-dr {
+        background-position: 78% 50%;
+    }
+    /* main header css start */
+    .topnav-inner {
+        padding: 0 0px;
+    } 
+    .nav-wrapper a.navbar-brand {
+        margin-right: 0 !important;
+        width: 16% !important;
+    }
+    .nav-wrapper a.navbar-brand img {    
+        width: 100% !important;
+    }
+    .nav-wrapper ul.navbar-nav li a {
+        font-size: 14px;
+        /* padding: 0px 5px !important; */
+    }
+    /* main header css end */
+    /* home page start */
+    .banner-wrapper .col-12:first-child {
+        order: 2;
+    }
+    .banner-wrapper.banner-dr .col-12:first-child {
+        order: unset;
+    }
+    h1.banner-title {
+        font-size: 50px;
+        line-height: 60px;
+        padding-top: 20px;
+    }
+    .btn-wrapper {
+      gap: 15px;
+  }
+    .btn-wrapper button.btn.pfbtn-solid {
+      gap: 15px;
+    }
+    button.btn.pfbtn-solid, button.btn.pfbtn-outline {
+      padding: 10px 16px !important;
+    }
+    .sec-title {
+      font-size: 30px;
+      line-height: 42px;
+    }
+    .pf-space {
+      padding: 80px 0;
+    }
+    .pf-btmspace {
+      padding: 0 0 80px 0;
+    }
+    .pf-tpspace {
+      padding: 80px 0 0 0;
+    }
+    .help-num h4 {
+        font-size: 70px;
+    }
+    .vision-left {
+        padding: 30px 30px 30px 30px;
+    }
+    .vision-right {
+        padding: 0px 30px 30px 30px;
+    }
+    .story-wrapper .title-space {
+        padding-bottom: 0px;
+        padding-top: 30px;
+    }
+    .story-wrapper .story-inner h3 {
+        padding-right: 15px;
+    }
+    .works-listwrapper {
+        padding: 30px 0 0;
+    }
+    .works-listwrapper h4 {
+        padding-bottom: 20px;
+    }
+    .steps-wrapper {
+        padding-left: 10px;
+    }
+    .drlist-inner #drlistCarousel .col-md-3 {
+        width: 50%;
+    }
+    /* home page end */
+      /* dr list page start */
+      .book-apmnt {
+        padding-top: 20px;
+      }
+      .drlist-inner.drlist-sec .card .card-top {
+        padding: 30px 10px;
+    }
+    .drlist-inner.drlist-sec .card h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .profile-box.box-left {
+        width: 30%;
+    }
+    .dr-profile-inner .profile-box img {
+        max-width: 100%;
+    }    
+    .profile-detail-wrapper {
+        align-items: center;
+    }
+    .dr-enquiry-form {
+        margin-top: 50px;
+    }
+    .dr-profile-inner .col-12.col-xl-9 .profile-box {
+        padding-top: 30px;
+    }
+    .dr.inner-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+      /* dr list page end */
+      section.small-banner h2 {
+        font-size: 30px;
+    }
+    .resources-grid {
+        padding: 20px 10px;
+    }
+    .resources-grid img {
+        max-width: 58px;
+    }
+    .resources-grid h3 {
+        font-size: 22px !important;
+    }
+    .prog-right {
+        padding: 30px 0px 0;
+    }
+    .exp-wrapper.pf-space {
+        padding-bottom: 0 !important;
+    }
+    .exp-wrapper .carousel {
+        position: relative;
+        padding-bottom: 80px !important;
+    }
+    .exp-wrapper .carousel-indicators {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 1rem !important;
+        margin-top: 30px;
+        padding-top: 0px;
+    }
+    .banner-new {
+        height: 45vh;
+        padding: 100px 0;
+    }
+    .banner-new p.banner-para {
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 600;
+        color: var(--grey);
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    .blog-card .card-body {
+        padding: 20px;
+    }
+    .blog-card .card-body h2.blog-post-title.h5 {
+        height: 32px;
+    }
+    .subscribe-inner {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+    .blog-card img.card-img-lg-start {
+        height: 190px !important;
+    }
+       .banner-resp {
+        background-color: #f7f7f7;
+    }
+    .banner-resp .banner-inner {
+        padding: 0 15px 0px;
+    }
+    .banner-blog, .banner-quiz, .banner-contact, .banner-dr-profile, .banner-dr {
+        background-image: none;
+      }
+      .menopause-awareness-quiz #user-info .modal-dialog, #user-info .modal-dialog {
+        max-width: 90%;
+    }
+    .contact-img {
+        height: 100%;
+        object-fit: cover;
+        text-align: left;
+    }
+    .dr-care-wrapper .care-img {
+        padding: 15px 10px;
+    }
+    .drlist-inner .card-spc {
+        gap: 50px;
+    }
+    .dr-expect  .col-12.col-xl-7 {
+        order: 2;
+    }
+    .dr-expect  .col-12.col-xl-5 {
+        order: 1;
+    }
+    .free-assessment-survey #thank-you .modal-dialog, .free-assessment-survey #user-info .modal-dialog {
+        max-width: 90%;
+    }
+
+    .packages-org .pfbtn-solid {
+        min-width: 225px;
+    }
+
+    .plansec-title .plan-sect-title {
+        font-size: 36px;
+      }
+      .plansec-title .plan-sect-subtitle{
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+    
+      .plan-section .plan-sec-details p{
+        font-size: 18px;
+      }
+    
+      .plan-section .plan-sec-details{
+        padding: 0 15px;
+      }
+    
+      .plan-section .plan-sec-details p:last-child{
+        margin-top: 20px;
+      }
+    
+      .common-orange-sec{
+        padding: 30px;
+      }
+    
+      .common-orange-sec h4{
+        font-size: 22px;
+        margin-bottom: 22px;
+      }
+    
+      .common-list-org span {
+        font-size: 16px;
+      }
+    
+      .common-list-org li {
+        margin-bottom: 14px;
+    }
+    
+    .personal-detail p {
+      font-size: 16px;
+    }
+    
+    .common-details-org .personal-detail img {
+      margin-right: 25px;
+      max-width: 80px;
+      max-height: 80px;
+    }    
+    .common-org-book-packg .packages-org {
+      padding: 25px;
+    }    
+    .package-details {
+      margin-bottom: 30px;
+    }    
+    .org-sec-spac {
+      padding-bottom: 80px;
+    }    
+    .support-plan-details .card-top {
+      padding: 25px;
+    }    
+    .Expect-cards .card-text h4 {
+      font-size: 16px;
+    }    
+    .Comprehensive-card {
+      padding: 25px;
+    }    
+    .Comprehensive-card h4 {
+      font-size: 20px;
+    }
+    .banner-wrapper.banner-prog {
+      display: block;
+    }
+    .plan-section .plan-sec-details {
+      padding: 0 20px;
+    }
+  .plan-section .plan-sec-details p {
+      font-size: 18px;
+      line-height: 30px;
+  }
+  .support-plan-details .card-top {
+      padding: 30px 10px;
+  }
+  .comprehensive-card {
+      padding: 30px 20px;
+  }
+  .post-type-archive-programs section.banner-wrapper.banner-prog.aos-init.aos-animate {
+      display: block !important;
+  }
+  .post-type-archive-programs .banner-wrapper.banner-prog .banner-inner {
+      padding: 50px 0 80px 0;
+  }
+  .post-type-archive-programs .banner-wrapper.banner-prog .prog-enquiry-form {
+      margin: 80px 0 0 0;
+  }
+  .post-type-archive-programs .banner-prog p.banner-para {
+    padding: 30px 0 30px;
+}
+.row.prog-list-inner .card-text {
+    padding: 20px;
+}
+.comprehensive-card h4 {
+    font-size: 22px;
+    line-height: 30px;
+}
+tr.order-total strong {
+    font-weight: 600 !important;
+}
+.woocommerce table.shop_table td {
+    padding: 10px !important;
+}
+tr.cart-subtotal td {
+    font-weight: 500 !important;
+}
+.vision-wrapper .vision-right {
+    text-align: left;
+}
+.vision-wrapper .vision-right button.btn.pfbtn-white {
+    width: 30% !important;
+}
+.banner-dr .banner-inner, .banner-blog .banner-inner, .banner-quiz .banner-inner {
+    width: 50%;
+}
+div#booking-consult .modal-dialog, #booking-physical-consult .modal-dialog {
+    max-width: 94%;
+}
+.booking-content {
+    padding: 30px 30px 30px 30px;
+}
+.dr-add-custom-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 12px;
+}
+/* #booking-consult .modal-body .col-xl-6:first-child {
+    order: 2;
+} */
+#booking-consult .visit-btn-grp.btn-wrapper {
+    padding-top: 0;
+}
+.close-btn {
+    padding: 20px 20px 0px;
+}
+#booking-consult .modal-body .col-xl-6 {
+    width: 50%;
+}
+.single-webinars .profile-detail-wrapper .profile-box.box-left {
+    width: 12%;
+}
+.single-webinars .profile-detail-wrapper .profile-box.box-right {
+    width: 88%;
+}
+.single-webinars .profile-detail-wrapper .profile-box.box-left img {
+    width: max-content;
+}
+.logged-in.admin-bar .offcanvas-xxl, .logged-in.admin-bar .modal-dialog {
+    top: -120px !important;
+}
+.plansec-wrapper.works-wrapper.org-sec-spac.plan2 .common-orange-sec-back.spacing {
+    margin: 50px 0 80px 0;
+}
+.logged-in.admin-bar.free-assessment-survey .modal-dialog {
+    top: 0 !important;
+}
+.logged-in.admin-bar.free-assessment-survey .modal.show .modal-dialog {
+    top: -50px !important;
+}
+.banner-survey .banner-inner {
+    width: 50%;
+}
+#fas-survey-load {
+    padding-bottom: 80px;
+}
+.new-custom-body.flex-column {
+    flex-direction: column-reverse !important;
+    display: flex;
+    gap: 40px;
+}
+.single-webinars .small-banner-inner {
+    padding: 50px 0 50px;
+}
+.contact-form-inner {
+    background-color: rgb(21 88 122 / 80%) !important;
+}
+#offcanvas-user-register {
+    top: 15%;
+  }
+  #offcanvas-user {
+    top: 22%;
+}
+.drlist-inner .card-spc h5 {
+    font-size: 14px;
+    line-height: 20px;
+}
+}
+  
+  @media only screen and (max-width: 768px) {
+    #offcanvas-user-register {
+        top: 12%;
+    }
+    .post-type-archive-videos .banner-new.banner-blog {
+        background-position: 76% 100% !important;
+    }
+    .single-format-standard .small-banner-inner {
+        padding: 50px 0 0px;
+    }
+    .banner-dr-profile .pf-breadcrumb-inner {
+        width: 50%;
+    }
+    .banner-new.banner-dr h1.banner-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .banner-survey h1.banner-title {
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 0 !important;
+    }
+    .banner-survey p.fas-banner-p {
+        padding: 20px 50px 30px 0;
+    }
+    .logged-in.admin-bar.free-assessment-survey .modal.show .modal-dialog {
+        top: -20px !important;
+    }
+    
+    /* main header css start */
+    .nav-wrapper a.navbar-brand {
+        width: unset !important;
+    }
+    .nav-wrapper a.navbar-brand img {    
+        width: unset !important;
+    }
+    div#navbarTogglerDemo02 {
+        background-color: var(--lightblue);
+        padding: 25px 20px;
+    }
+    .nav-wrapper ul.navbar-nav li a {
+        font-size: 18px;
+        /* padding: 12px 0px !important; */
+    }
+    .navbar-nav {
+        align-items: flex-start;
+      }
+    /* main header css end */
+  
+    /* footer section start */
+    .footer-inner {
+        width: 50%;
+        /* padding-bottom: 30px; */
+    }
+    .pf-mainfooter {
+        padding: 60px 0;
+    }
+    .footer-inner:last-child {
+        padding-bottom: 0px;
+    }
+    .pf-mainfooter .footer-inner .ft-title h5:after {
+        width: 14%;
+    }
+    /* footer section end */
+    /* home page start */
+    h1.banner-title {
+        font-size: 50px;
+        padding-top: 40px;
+    }
+    .banner-img img {
+        width: 60%;
+    }
+    .banner-wrapper .col-12:last-child {
+        order: 1;
+    }
+    .exp-inner-det p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .exp-inner-det .rgt-sec {
+        padding: 0 20px;
+        width: 70%;
+    }
+    .exp-inner-det .lft-sec {
+        width: 30%;
+    }
+    .story-wrapper .sec-title {
+        padding: 30px 0;
+    }
+    .vision-right {
+        padding: 20px 30px 50px 30px;
+        text-align: left;
+    }
+    .vision-left {
+        padding: 50px 30px 0px 30px;
+    }
+    button.btn.pfbtn-white {
+        width: 50%;
+    }
+    .help-txt {
+        padding: 12px 0 12px 12px;
+    }
+    .help-box:nth-child(even) .row .help-detail .help-txt {
+        padding: 12px 12px 12px 0px;
+    }
+    .help-txt p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .help-txt h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .help-txt h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .care-wrapper {
+        width: 50%;
+    }
+    .care-wrapper.care-detail-first .care-inner, .care-wrapper.care-detail-last .care-inner {
+        text-align: left;
+    }
+    .care-img {
+        width: 100%;
+        padding: 0px 0 60px;
+    }
+    .symptoms-list span {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .choosing-inner .care-img {
+        text-align: center;
+    }
+    .choosing-inner .row .care-wrapper {
+        order: 2;
+    } 
+    .care-wrapper .care-inner {
+        padding-bottom: 50px !important;
+        width: 100%;
+      }
+    .care-wrapper.care-detail-last .care-inner:last-child {
+        padding-bottom: 0;
+    }
+    .choosing-wrapper {
+        padding: 80px 0;
+    }
+    .works-img {
+        width: 100%;
+    }
+    .drlist-inner #drlistCarousel .carousel-inner .carousel-item-end.active,
+    .drlist-inner #drlistCarousel .carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.drlist-inner #drlistCarousel .carousel-inner .carousel-item-start.active, 
+		.drlist-inner #drlistCarousel .carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+        .subscribe-wrapper {
+            padding: 80px 0;
+        }
+        .steps-wrapper {
+            padding-left: 68px;
+        }
+        .card iframe {
+            border-radius: 8px 8px 0 0px;
+        }
+        /* home page end */
+        .prog-cons-wrapper button.btn.pfbtn-white {
+            width: 100%;
+        }
+        .vision-prog-img {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .prog-dr-left-right {
+            padding-top: 20px;
+        }
+        .prog-cons-wrapper .container {
+            padding: 40px 20px;
+        }
+        .vision-prog-title {
+            line-height: 32px;
+            padding-bottom: 0px;
+        }
+        .blog-card img.card-img-lg-start {
+            height: 130px !important;
+        }
+        .blog-card .card-body .card-text a {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .quiz-inner-box h6 {
+            font-size: 22px;
+        }
+        p.comment-notes, label.form-check-label {
+            font-size: 18px;
+        }
+        .menopause-awareness-quiz #user-info .modal-dialog, #user-info .modal-dialog {
+            max-width: 95%;
+        }
+        .contact-inner .col-12 {
+            width: 100%;
+        }
+        .contact-img {
+            height: 100%;
+            object-fit: cover;
+            text-align: left;
+            width: 60%;
+            padding-bottom: 60px;
+        }
+        .dr-care-list ul li {   
+            width: 50%;
+            margin-bottom: 30px;
+        }
+        .dr-care-list ul {
+            flex-direction: column;
+        }
+        .dr-specialist .vision-left {
+            padding: 50px 20px 50px 20px;
+        }
+        div#fas-survey-load .modal-dialog .modal-body {
+            padding: 50px 20px;
+        }
+        .__range-step datalist option {
+            font-size: 12px;
+        }
+
+        /* 23-11-23 */
+        .prog-list-inner h3 {
+            font-size: 50px;
+            line-height: 50px;
+        }
+        .row.prog-list-inner .card-text {
+            padding: 20px;
+        }
+        .prog-list-inner h4 {
+            font-size: 20px;
+            line-height: 22px;
+            padding-top: 20px;
+        }
+        .common-orange-sec .col-md-6 {
+            width: 100%;
+        }
+        .common-details-org {
+            padding-bottom: 40px;
+        }
+        .common-orange-sec .col-md-6:first-child {
+            order: 2;
+        }
+        .common-orange-sec .col-md-6:last-child {
+            order: 1;
+        }
+        .common-org-book-packg .packages-org {
+            padding: 30px 12px;
+        }
+        section.plansec-wrapper.works-wrapper {
+            padding-top: 0;
+        }
+        .expect-cards .card-text h4 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .comprehensive-card h4 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .comprehensive-card {
+            padding: 30px 15px;
+        }
+        .banner-new .banner-inner {
+            width: 55%;
+        }
+        .booking-content {
+            padding: 0px 10px 10px 10px;
+        }
+        #booking-consult .modal-body h3.title, #booking-physical-consult.modal-body h3.title {
+            padding-bottom: 0px;
+            font-size: 20px;
+            line-height: 32px;
+            margin-bottom: 0;
+        }
+        #booking-consult .booking-content .visit-btn-grp.btn-wrapper {
+            gap: 16px;
+            padding-top: 10px;
+        }
+        #booking-consult .modal-body h3.title, #booking-physical-consult.modal-body h3.title {
+            padding-top: 20px;
+        }
+        #booking-consult .booking-content .physical-visit p {
+            padding-bottom: 0px;
+        }
+        .blog-card .card-body h2.blog-post-title.h5 {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .blog-card .card-body {
+            padding: 12px;
+        }
+        .single-webinars .profile-detail-wrapper .profile-box.box-left {
+            width: 16%;
+        }
+        .single-webinars .profile-detail-wrapper .profile-box.box-right {
+            width: 84%;
+        }
+        .logged-in.admin-bar .offcanvas-xxl, .logged-in.admin-bar .modal-dialog {
+            top: -40px !important;
+        }
+        li.method {
+            padding-top: 30px;
+        }
+        .subscribe-inner {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .banner-quiz {
+            background-position: 80% 100% !important;
+        }
+        .banner-quiz h1.banner-title {
+            font-size: 46px;
+            line-height: 56px;
+            padding-top: 0px;
+        }
+        .banner-new.banner-quiz p.banner-para {
+            font-size: 18px;
+            line-height: 28px;
+            padding-top: 10px;
+        }
+        .banner-new.banner-quiz p.maq-banner-p {
+            padding-top: 10px;
+        }
+        .banner-new.banner-quiz .btn-wrapper {
+            padding-top: 10px;
+        }
+        .single-videos .small-banner-inner, .single-events .small-banner-inner {
+            padding: 50px 0;
+        }
+        #offcanvas-user {
+            top: 24%;
+        }
+        
+ }
+  @media only screen and (max-width: 767px) {
+    .woocommerce-checkout .woocommerce table.shop_table th {
+        font-size: 16px;
+    }
+    .woocommerce-checkout .woocommerce table.shop_table td {
+        padding: 10px 5px !important;
+    }
+    #offcanvas-user {
+        top: 16%;
+    }
+    #offcanvas-user-register {
+        top: 0%;
+    }
+    .banner-resp.banner-contact h2.form-title {
+        font-size: 20px !important;
+        max-width: none !important;
+        color: var(--bs-white) !important;
+        line-height: 1.5 !important;
+    }
+    section.banner-wrapper.banner-new.banner-resp.banner-contact.banner-hide .contact-form-inner form label {
+        font-size: 16px !important;
+        line-height: normal !important;
+        color: var(--bs-white) !important;
+    }
+    section.contact-wrapper.banner-contact {
+        display: none;
+    }
+    section.banner-wrapper.banner-new.banner-resp.banner-contact.banner-hide {
+        padding: 0 0 60px;
+    }
+    section.contact-wrapper.banner-contact .contact-back-banner {
+        background-image: unset !important;
+    }
+    .profile-box.box-right {
+        width: 100%;
+    }
+    .single-videos .small-banner-inner, .single-events .small-banner-inner {
+        padding: 50px 0 0;
+    }
+    .single-webinars .small-banner-inner {
+        padding: 50px 0 0px;
+    }
+    .reg-form {
+        padding: 40px 25px;
+    }
+    .footer-inner.ft-contact {
+        padding-bottom: 25px;
+    }
+    .woocommerce ul.order_details li {
+        padding-top: 25px;
+    }
+    #booking-consult .booking-content .physical-visit p {
+        font-size: 14px;
+    }
+    .single-doctors  .dr-profile-wrapper .dr-profile-inner .profile-box img {
+        max-width: 40%;
+    }
+    .single-doctors  .dr-profile-wrapper .dr-profile-inner .profile-box .badge-icon img {
+        max-width: 100%;
+    }
+    .dr-status .badge {
+        padding: 3px 10px;
+    }
+    .dr-profiledetail-inner p {
+        text-align: justify;
+    }
+    .banner-dr-profile .pf-breadcrumb-inner {
+        width: 100%;
+    }
+    .banner-resp.banner-survey p.banner-para {
+        padding: 20px 0px 0 0 !important;
+    }
+    .banner-resp.banner-survey p.fas-banner-p {
+        padding: 20px 0px 30px 0 !important;
+    }
+    .logged-in.admin-bar.free-assessment-survey .modal.show .modal-dialog {
+        top: 0px !important;
+    }
+    .plan-section .plan-sec-details {
+        padding: 0 0px;
+    }
+    .banner-wrapper.banner-prog .col-12:first-child {
+        order: 1;
+    }
+    .post-type-archive-programs .banner-wrapper.banner-prog .banner-inner {
+        padding: 50px 0 0px 0;
+    }
+    .common-details-org {
+        padding-bottom: 10px;
+    }
+    .logged-in.admin-bar .offcanvas-xxl, .logged-in.admin-bar .modal-dialog {
+        top: 0px !important;
+    }
+    #qa-form label.form-check-label {
+        font-size: 16px;
+    }
+    .quiz-inner-box .form-check {
+        padding-left: 20px !important;
+    }
+    .banner-blog h1.banner-title {
+        padding-top: 0px;
+    }
+    .pf-ques span.pf-ans.ans-right:after, .pf-ques span.pf-ans.ans-wrong:after {
+        top: 3px;
+      }
+    .banner-blog p.banner-para {
+        padding: 20px 0px 0 0;
+    }
+    .small-banner-inner nav.breadcrumb-scroller {
+        padding: 0px 15px;
+    }
+    .new-custom {
+        padding-bottom: 60px;
+    }
+    .single-webinars .profile-detail-wrapper {
+        gap: 10px;
+    }
+    
+    #booking-consult .modal-body .col-xl-6 {
+        width: 100%;
+    }
+#booking-consult .modal-body .col-xl-6:first-child {
+    order: 2;
+}
+    .banner-wrapper.banner-new.banner-dr-resp {
+        padding: 0 0 60px !important;
+    }
+    .expext-list-wrapper .expect-inner:first-child li {
+        padding-bottom: 0;
+    }
+    .exp-inner-det p {
+        min-height: 270px;
+        height: auto;
+    }
+    .symptoms-list span {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .vision-wrapper .vision-right button.btn.pfbtn-white {
+        width: 100% !important;
+    }
+    .choosing-inner .care-wrapper {
+        width: 100%;
+    }
+    .single-webinars .profile-detail-wrapper .profile-box.box-left {
+        width: 100%;
+    }
+    .single-webinars .profile-detail-wrapper .profile-box.box-right {
+        width: 100%;
+    }
+    .btn-wrapper button.btn.pfbtn-solid {
+        width: 100%;
+        justify-content: center;
+      }
+      button.btn.pfbtn-solid, button.btn.pfbtn-outline {
+        width: 100%;
+    }
+    .pf-breadcrumb-inner {
+        padding: 0 15px;
+    }
+    .banner-wrapper.banner-new.banner-resp.banner-hide {
+        padding: 60px 0;
+    }
+    .banner-wrapper .banner-inner{
+        padding: 40px 15px 0;
+    }
+    .banner-new .banner-inner, .banner-blog .banner-inner {
+        width: 100%;
+    }
+    .home .banner-wrapper {
+        display: block;
+        padding: 80px 0;
+    }
+    .subscribe-wrapper, .banner-wrapper {
+        padding: 0px 0;
+        display: none;
+    }
+    .subscribe-hide, .banner-hide {
+        display: block !important;
+    }
+    /* footer section start */
+    .footer-inner {
+        width: 100%;
+    }
+    .footer-inner:last-child {
+        padding-bottom: 0;
+    }
+    .bottom-footer .f-right, .bottom-footer .f-left {
+        justify-content: center;
+        text-align: center;
+    }
+    .bottom-footer .f-left {
+        padding-bottom: 10px;
+    }
+    /* footer section end */
+     /* home page start */
+     .banner-img img {
+        width: 100%;
+    }
+    h1.banner-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .btn-wrapper {
+        flex-direction: column;
+    }
+    .sec-title {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .sec-para {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .exp-inner {
+        padding: 0 15px !important;
+    }
+    .exp-inner-det .rgt-sec {
+        padding: 20px;
+        width: 100%;
+    }
+    .exp-inner-det .lft-sec {
+        width: 100%;
+    }
+    .exp-inner-det {
+        flex-direction: column;
+    }
+    .exp-wrapper .carousel-control-prev-icon, .exp-wrapper .carousel-control-next-icon {
+        display: block;
+      }
+      .exp-wrapper .carousel-indicators {
+        display: none;
+      }
+      .exp-wrapper .carousel {
+        padding-top: 30px !important;
+    }
+    .smpt-inner {
+        padding: 0 15px;
+    }
+    .smpt-inner .col-md-3 {
+        border-right: none;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #d9d9d9;
+        padding-bottom: 30px;
+    }
+    .symptoms-list {
+        flex-direction: column;
+    }
+    .story-link {
+        flex-direction: column;
+    }
+    .story-link .founder-det {
+        border-right: none;
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .story-link .ims-det {
+        width: 100%;
+    }
+    .works-listwrapper li {
+        gap: 8px;
+    }
+    .steps-wrapper h4 {
+        padding: 5px 8px !important;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .story-inner {
+        background-size: contain;
+    }
+    button.btn.pfbtn-white {
+        width: 100%;
+    }
+    .vision-wrapper {
+        padding: 0 15px 80px 15px !important;
+    }
+    .vision-left {
+        padding: 30px 10px 15px; 
+    }
+    .vision-right {
+        padding: 10px 15px 30px;
+    }
+    .help-detail {
+        flex-direction: column-reverse;
+        border-radius: 8px;
+        gap: 0px;
+    }
+    .help-txt {
+        padding: 20px;
+        width: 100%;
+    }
+    .help-img {
+        width: 100%;
+    }
+    .help-box:nth-child(even) .row .help-detail {
+        flex-direction: column-reverse;
+    }
+    .help-box:nth-child(even) .row .help-detail .help-txt {
+        padding: 20px;
+    }
+    .help-box:nth-child(even) .row .help-detail .help-img img, .help-img img {
+        border-radius: 8px;
+    }
+    .works-img {
+        width: 100%;
+    }
+    .steps-wrapper {
+        padding-left: 50px !important;
+    }
+    .drlist-wrapper {
+        padding: 80px 0;
+    }
+    .drlist-inner #drlistCarousel .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .drlist-inner #drlistCarousel .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+    .drlist-inner #drlistCarousel .col-md-3 {
+        width: 100%;
+    }
+    .dr-profile-inner .profile-box img {
+        max-width: 100%;
+    }
+       .dr-profile-wrapper.container {
+        max-width: 350px !important;
+    }
+    .dr-profile-detail {
+        padding: 0px 0 0 !important;
+    }
+    .dr-enquiry-form {
+        padding: 60px 15px;
+    }
+    .profile-box h3 {
+        font-size: 25px;
+        line-height: 25px;
+    }    
+    .subscribe-inner h3 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .subscribe-inner {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 50px 15px 50px;
+    }
+    .subscribe-inner p {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 20px 0 20px 0;
+    }    
+    /* home page end */
+    /* program page start */        
+    .program-list h3 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .prg-group {
+        flex-direction: column;
+    }
+    .prog-price {
+        width: 100%;
+    }
+    .prg-group button {
+        width: 100%;
+    }
+    /* program page end */
+
+    /* dr profile page start */
+    .profile-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-group .prog-price {
+        gap: 15px;
+    }
+    .profile-group .prog-price span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    /* dr profile page end */
+    .resources-grid {
+        padding: 40px 10px;
+        margin-bottom: 30px;
+    }
+    .col-md-3:last-child .resources-grid {
+        margin-bottom: 0px;
+    }
+    .date-sec {
+        padding: 0 20px;
+    }
+    .prog-cons-wrapper .container {
+        padding: 20px;
+    }
+    .banner-new {
+        height: auto;
+    }
+    .banner-resp p.banner-para {
+        padding-top: 20px;
+        margin-bottom: 0;
+    }
+    .blog-card img.card-img-lg-start {
+        height: 250px !important;
+    }
+    .blog-card .card-body h2.blog-post-title.h5 {
+        height: auto;
+    }
+    p.comment-notes, label.form-check-label {
+        font-size: 18px;
+    }
+    .quiz-inner-box h6 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .quiz-inner-box label.form-check-label {
+        align-items: flex-start;
+    }
+    .form-check .form-check-input {
+        margin-top: 7px !important;
+    }
+    .quiz-inner-box {
+        padding: 20px;
+    }
+    .menopause-awareness-quiz #user-info .modal-body {
+        padding: 20px 25px 25px;
+    }
+    form#userinfo {
+        width: 100%;
+    }
+    .contact-img {
+        width: 100%;
+    }
+    .contact-form-inner {
+        padding: 50px 20px !important;
+    }
+    .pfform-inner {
+        flex-direction: column;
+    }
+    .contact-inner form input.wpcf7-form-control.wpcf7-submit {
+        width: 100% !important;
+    }
+    .profile-detail-wrapper {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .profile-box.box-left {
+        width: 100%;
+    }
+    .dr-care-list ul li {
+        width: 100%;
+    }
+    .expext-list-wrapper {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .expext-list-wrapper .expect-inner {
+        width: 100%;
+    }
+    .dr-expect.works-listwrapper li:last-child {
+        padding-bottom: 0px;
+    }
+    .dr-specialist .vision-left {
+        padding: 50px 10px 50px 10px;
+    }
+    #fas-survey-load .modal-content .btn-wrapper a {
+         margin: 0 auto;
+    }
+    div#multistep-form label.form-check-label {
+        align-items: flex-start;
+    }
+    .__range-step {
+        padding: 25px 10px;
+    }
+    #multistep-form {
+        padding: 50px 10px;
+    }
+    .__range.__range-step h4 {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 20px;
+    }
+    .__range-step datalist option {
+        font-size: 10px;
+    }
+    div#fas-survey-load .modal-dialog .modal-body {
+        padding: 50px 10px;
+    }
+    .fas-submit-btn button.btn.pfbtn-solid {
+        padding: 8px 28px !important;
+        width: 140px;
+    }
+    .free-assessment-survey #thank-you .modal-dialog, .free-assessment-survey #user-info .modal-dialog {
+        max-width: 100%;
+    }
+    .free-assessment-survey #user-info button.btn.btn-primary.btn-block {
+        width: 100%;
+    }
+    .free-assessment-survey form#userinfo {
+        width: 100%;
+    }
+    .free-assessment-survey #user-info .modal-body {
+        padding: 0px 15px 25px;
+    }
+    .free-assessment-survey #user-info .title {
+        font-size: 22px;
+        line-height: 32px;
+        padding-bottom: 10px;
+    }
+    /* 23-11-23 start */
+
+    .plansec-title .plan-sect-subtitle {
+        margin-bottom: 30px;
+        font-size: 18px;       
+    }    
+    .plan-section .plan-sec-img {
+      text-align: center;
+    }    
+    .plan-section .row{
+      row-gap: 30px;
+    }    
+    .plan-section{
+      padding: 15px 0;
+    }    
+    .common-orange-sec-back.spacing {
+      margin: 38px 0;
+    }    
+    .common-orange-sec .row{
+      row-gap: 15px;
+    }    
+    .common-org-book-packg .row{
+      row-gap: 20px;
+    }    
+    .org-sec-spac {
+      padding-bottom: 60px;
+    }    
+    .plansec-title .plan-sect-title {
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 12px;
+    }
+    #nav-main.nav-wrapper ul.navbar-nav li a {
+        font-size: 18px !important;
+      }  
+      #nav-main.nav-wrapper ul.navbar-nav li {
+        margin-bottom: 5px;
+      }  
+      .offcanvas-body {
+        padding: 10px 20px 50px !important;
+    }
+    .plan-sec-img img{
+        width: auto;
+    }
+     .row.nutrition-section{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    /* 23-11-23 end  */
+    .banner-prog .prog-enquiry-form {
+        padding: 50px 20px;
+    }
+    .personal-detail.d-flex {
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+ /* 23-11-23 start   */
+@media only screen and (max-width: 575px){
+  .plan-section {
+      background-color: transparent;
+  }  
+  .common-orange-sec-back.spacing {
+    margin: 25px 0;
+  }  
+  .common-orange-sec h4 {
+    margin-bottom: 16px;
+  }  
+  .org-sec-spac {
+    padding-bottom: 40px;
+  }  
+  .plansec-title .plan-sect-subtitle {
+    margin-bottom: 16px;
+  }  
+  .plan-section .row > *{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .comprehensive-card h4{
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .plan-sec-img img{
+    border-radius: 8px;
+  }
+  }
+  /* 23-11-23 end  */ 
+  /* responsive css end */
